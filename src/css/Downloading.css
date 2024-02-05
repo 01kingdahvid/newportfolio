@@ -1,0 +1,85 @@
+
+.declan-mod {
+    background-color: #292727 !important;
+    color: #fff;
+    width: 100%;
+    height: 20rem;
+    max-width: 1728px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+
+.div{
+    background-color: #292727 !important;
+    color: #fff;
+    display: flex !important;
+  
+    position: absolute;
+}
+
+.div-img{
+position: relative;
+bottom: 0.5rem;
+left: 28rem;
+width: 25px !important;
+height: 25px;
+flex-shrink: 0;
+cursor: pointer;
+}
+
+
+.mod-img{
+    width: 91.613px;
+height: 71px;
+flex-shrink: 0;
+margin-top: 2rem;
+margin-bottom: 8px;
+}
+
+.mod-h1{
+    color: #FFF;
+font-family: "Hammersmith One";
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mod-p{
+    color: #B5B5B5;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+.mod-link{
+    text-decoration: none;
+   padding: 10px 15px 10px 15px;
+background-color: #fff !important;
+color:#292727;
+border-radius: 5px;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.pdf{
+    color: #F16529 !important;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}

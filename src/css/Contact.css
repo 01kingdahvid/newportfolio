@@ -1,0 +1,328 @@
+.contact-container{
+    display: flex;
+    width: 100%;
+    gap: 160px;
+}
+
+
+.c-frame{
+width: 40%;
+}
+
+.owner{
+    color: #FFF !important;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+    margin-bottom: 4rem !important;
+}
+
+
+.c-header{
+    width: 200px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.c-h6{
+    color: #F16529;
+    font-family: "Hammersmith One";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.c-h1{
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.c-text{
+    width: 572px;
+flex-shrink: 0;
+color: #B5B5B5;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+margin-bottom: 3rem;
+}
+
+.routes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+    gap: 20px; /* Adjust the gap between links */
+}
+
+.spp {
+    /* Add your styling for the links */
+    /* For example: */
+    text-decoration: none;
+    color: #B5B5B5;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.c-routes{
+    margin-bottom: 3rem;
+}
+
+.sp{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+    justify-content: left;
+    text-decoration: none;
+
+}
+
+
+.cc-img{
+    width: 53.988px;
+height: 43.19px;
+flex-shrink: 0;
+}
+
+
+
+.c-last-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.c-avt{
+    width: 66px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 66px;
+}
+
+.c-socials{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.c-img{
+    width: 21.669px;
+height: 16.259px;
+flex-shrink: 0;
+}
+
+.cl{
+    color: #B5B5B5;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+
+
+.form-main{
+    width: 100%;
+    max-width: 1728px;
+    background: #2d2d2d;
+    padding: 15px 45px 15px 45px;
+}
+.contact-form-frame{
+    margin-top: 2.5rem;
+    
+}
+
+.contact-form{
+background: #2d2d2d;
+}
+
+
+.h1-info{
+    color: #FFF;
+font-family: "Hammersmith One";
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.bg-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.i-e{
+    padding-right: 0 !important;
+    border-radius: 3px;
+    color: #CBCBCB !important;
+}
+
+input, textarea{
+    color: #fdfdfd !important;
+    background-color: #535353 !important;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+.i-e::placeholder{
+color: #CBCBCB !important;
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.c-btn{
+    color: #292727 !important;
+    border-radius: 3px;
+background: #FFF !important;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 303px;
+height: 52px;
+  }
+
+  .butt{
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 428px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 428px;
+        gap: 55px;
+    }
+
+    .c-frame {
+        width: 100%;
+        max-width: 428px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .c-header{
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        border-radius: 3px;
+        background: #FFF;
+        text-align: center;
+      }
+
+      .c-h6 {
+        color: #F16529;
+        font-family: "Hammersmith One";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
+      .c-h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+      }
+      
+      .c-text {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        max-width: 428px;
+        margin-bottom: 5rem;
+      }
+    
+      .c-last-line {
+        width: 100%;
+        max-width: 428px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .c-socials {
+        width: 90%;
+        max-width: 428px;
+        justify-content: space-between;
+        gap: 22px;
+        margin-left: 13px;
+      }
+    
+      .c-avt{
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    max-width: 428px;
+      }
+      .contact-form-frame{
+        margin-top: 1.5rem;
+        width: 100%;
+        max-width: 428px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .bg-custom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 428px;
+    }
+    
+    .i-e{
+        padding-right: 0 !important;   
+    }
+    
+   
+  
+}

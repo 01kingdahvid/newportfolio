@@ -1,0 +1,30 @@
+.nav-bar{
+   
+    color: #FFF !important;
+    margin-bottom: 5rem !important;
+}
+
+
+.b-name{
+    color: #FFF !important;
+font-size: 30px !important;
+font-style: normal;
+font-weight: 400 !important;
+line-height: normal;
+}
+
+
+.links{
+    margin-left: 31rem;
+    gap: 65px;
+}
+
+.link{
+    color: #FFF !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
+
+

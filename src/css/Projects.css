@@ -1,0 +1,395 @@
+.pr-container {
+  /* margin-top: 5rem; */
+  display: flex;
+  width: 100%;
+  gap: 55px;
+}
+.lh{
+    text-decoration: none;
+}
+
+.owner{
+    color: #FFF !important;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+    margin-bottom: 4rem !important;
+}
+
+.prr-header{
+    width: 200px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    
+    .prr-h6{
+        color: #F16529;
+        font-family: "Hammersmith One";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .prr-h1{
+        color: #FFF;
+        font-family: "Hammersmith One";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .prr-text{
+        width: 572px;
+    /* height: 122px; */
+    flex-shrink: 0;
+    color: #B5B5B5;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 3rem;
+    
+    }
+
+    .pr-last-line{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .pr-avt{
+        width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 66px;
+    }
+    
+    .prr-socials{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .p-img{
+        width: 21.669px;
+    height: 16.259px;
+    flex-shrink: 0;
+    }
+    
+    .pl{
+        color: #B5B5B5;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    }
+
+
+
+
+.pr-frame {
+  width: 100%;
+}
+.pr-content {
+  /* display: inline-flex; */
+  /* padding: 15px 11px 51px 39px; */
+ background-color: transparent;
+  gap: 20px;
+  background: #2d2d2d61;
+  /* background-size: cover; */
+  /* width: 100%; */
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.prp-details{
+    background: #2d2d2d;
+    padding: 10px 0px 0px 30px;
+    width: 210px !important;
+    height: auto;
+}
+
+.pr-h6 {
+  color: #f16529;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.prp-details-1 .pr-h6,
+.prp-details-2 .pr-h6,
+.prp-details-5 .pr-h6,
+.prp-details-7 .pr-h6,
+.prp-details-8 .pr-h6,
+.prp-details-12 .pr-h6 {
+  color: #f16529;
+}
+
+.prp-details-3 .pr-h6,
+.prp-details-4 .pr-h6,
+.prp-details-6 .pr-h6,
+.prp-details-9 .pr-h6,
+.prp-details-10 .pr-h6,
+.prp-details-11 .pr-h6 {
+  color: #83cd29;
+}
+
+.pr-h1 {
+  display: flex;
+  width: 217px;
+  height: 118px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Hammersmith One";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pr-sm {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.pr-socials {
+  /* display: flex; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.prp-soc{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+
+.prp {
+  width: 63.655px;
+  height: 26px;
+  flex-shrink: 0;
+  color: #b5b5b5;
+  font-family: "Hammersmith One";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+#web{
+    margin-left: 2px;
+}
+
+.prp-img {
+  width: 15.828px;
+  height: 14.931px;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 428px) {
+.pr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 428px;
+  }
+
+  .lh{
+    display: flex;
+  }
+  
+  .prr-i-frame {
+    width: 100%;
+    max-width: 428px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .prr-header{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #FFF;
+    text-align: center;
+  }
+  .prr-h6 {
+    color: #F16529;
+    font-family: "Hammersmith One";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .prr-h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+  }
+  
+  .prr-text {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 428px;
+    margin-bottom: 5rem;
+  }
+
+  .pr-last-line {
+    width: 100%;
+    max-width: 428px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .prr-socials {
+    width: 90%;
+    max-width: 428px;
+    justify-content: space-between;
+    gap: 22px;
+    margin-left: 13px;
+  }
+
+  .pr-avt{
+width: 40px;
+height: 40px;
+justify-content: space-between;
+max-width: 428px;
+  }
+
+
+  
+  .pr-frame {
+    width: 100%;
+    max-width: 428px;
+  }
+  
+  .pr-content {
+    width: 100%;
+    max-width: 428px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .prp-details {
+    background: #2d2d2d;
+    /* width: 100%; */
+    width: 375px !important;
+    max-width: 428px;
+    text-align: left;
+  }
+  
+  .pr-h6 {
+    color: #f16529;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .prp-details-3 .pr-h6,
+  .prp-details-4 .pr-h6,
+  .prp-details-6 .pr-h6,
+  .prp-details-9 .pr-h6,
+  .prp-details-10 .pr-h6,
+  .prp-details-11 .pr-h6 {
+    color: #83cd29;
+  }
+  
+  .pr-h1 {
+    color: #fff;
+    font-family: "Hammersmith One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pr-sm {
+    width: 100%;
+    max-width: 428px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .prp-soc{
+    display: flex;
+    width: 50%;
+    max-width: 428px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 22px; */
+    margin-left: 13px;
+  }
+  
+  .pr-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+  }
+  
+  .prp {
+    color: #b5b5b5;
+    font-family: "Hammersmith One";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .prp-img {
+    width: 10.828px;
+    height: 11.931px;
+    flex-shrink: 0;
+  }
+}  

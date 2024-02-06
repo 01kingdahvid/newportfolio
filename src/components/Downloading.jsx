@@ -10,6 +10,8 @@ import cb from '../assets/images/closebutton.svg';
 function Downloading({ showModal, setShowModal }) { // Receive props
     const handleClose = () => setShowModal(false);
 
+    
+
     return (
         <>
             <div className="modal-container">
@@ -21,10 +23,10 @@ function Downloading({ showModal, setShowModal }) { // Receive props
                     </div>
                         <div className="mod-content">
                             <img src={mb} alt="" className='mod-img'/>
-                            <p className='pdf'>David's Resume.pdf</p>
+                           <Link target="blank" to="https://docs.google.com/document/d/1WCmygiGXnAFft5ZOF0iK1bRzV4K0vrqAsAqyyqofOVw/edit?usp=sharing"> <p className='pdf'>David's Resume.pdf</p></Link> 
                             <h1 className='mod-h1'>Download In Progress!</h1>
                             <p className='mod-p'>Kindly check your downloads for the downloaded file.</p>
-                            <Link to="chrome://downloads/" className='mod-link'>Go to Downloads</Link>
+                            <Link target="blank" to="https://docs.google.com/document/d/1WCmygiGXnAFft5ZOF0iK1bRzV4K0vrqAsAqyyqofOVw/edit?usp=sharing">Go to Downloads</Link>
                         </div>
                     </Modal.Body>
                 </Modal>

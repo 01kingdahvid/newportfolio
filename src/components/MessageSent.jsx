@@ -11,7 +11,7 @@ function MessageSent({ showModal, setShowModal }) { // Receive props
     const handleClose = () => setShowModal(false);
 
     return (
-        <>
+        <> 
             <div className="modal-container">
                 <Modal show={showModal} onHide={handleClose} animation={false}>
                     

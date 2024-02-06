@@ -16,11 +16,13 @@ import MessageSent from '../components/MessageSent';
 
 const Contact = () => {
     const [showModal, setShowModal] = useState(false);
+    const [loading, setLoading] = useState(false); // State to track loading state
 
 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true); // Set loading to true when form is submitted
         const form = e.target;
         const isValid = validateForm(form);
 
@@ -43,6 +45,8 @@ const Contact = () => {
         } else {
             console.log('Form validation failed');
         }
+
+        setLoading(false); // Set loading to false after form submission
     };
 
     const validateForm = (form) => {
@@ -160,8 +164,8 @@ const Contact = () => {
                                         />
                                     </Form.Group>
                                     <span className="butt">
-                                        <Button type='submit' size='lg' className='c-btn'>
-                                            Send Message
+                                        <Button type='submit' size='lg' className='c-btn'  disabled={loading}>
+                                        {loading ? 'Sending...' : 'Send Message'}
                                         </Button>
                                     </span>
 
